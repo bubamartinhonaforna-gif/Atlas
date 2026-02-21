@@ -27,7 +27,7 @@
 }
 
 .imc { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-    url("img/bird-7117346_1280.jpg"); 
+    url("../img/bird-7117346_1280.jpg"); 
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -65,7 +65,7 @@ nav ul li a {
 .cocabeca{
     height: 40vh;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('img/paraiso.jpg');
+                url('../img/paraiso.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
