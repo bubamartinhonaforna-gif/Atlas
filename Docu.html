@@ -4,11 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentos da pagina</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-<body>
-    <div class="container">   
+<body>  
         <div class="site">
             <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: rgb(2, 39, 7);">
                 <div class="container-fluid">
@@ -26,10 +24,10 @@
                         <div class="collapse navbar-collapse" id="menuPrincipal">
                            <ul class="navbar-nav me-auto bm-2 lg-0">
                                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#micro">Microvida </a></li>
-                                <li class="nav-item"><a class="nav-link" href="#raiz">Raiz</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#insecto">Insecto</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#fungica">Fúngica</a></li>
+                                <li class="nav-item"><a class="nav-link" href="microvida.html">Microvida </a></li>
+                                <li class="nav-item"><a class="nav-link" href="raiz.html">Raiz</a></li>
+                                <li class="nav-item"><a class="nav-link" href="insecto.html">Insecto</a></li>
+                                <li class="nav-item"><a class="nav-link" href="fungica.html">Fúngica</a></li>
                                 <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
                                 <li class="nav-item"><a class="nav-link" href="autor.html">Autor</a></li>
                             </ul>
@@ -55,16 +53,16 @@
 
                                 <div class="sobre-conteudo">
                                     <span class="sobre-tag">Atlas Vivo Bio Invisível</span>
-                                    <h2 id="micro" style="color: black;">Zona Microvida</h2>
+                                    <h2 id="bacte" style="color: black;">Zona Microvida</h2>
                                     <h3>Bactérias</h3>
                                     <p><b>Rhizobium:</b> Vivem nas raízes de plantas e "fabricam" adubo natural. <br>
                                         <b>Cyanobacteria:</b> As "algas azuis" que inventaram a fotossíntese e nos dão oxigênio. <br>
-                                        <b>Bacillus subtilis:</b> Protege as plantas de doenças e vive no solo.
+                                        <b id="solo">Bacillus subtilis:</b> Protege as plantas de doenças e vive no solo.
                                         </p>
                                     <h3>Microorganismos de solo</h3>
                                     <p><b>Nematódeos:</b> Vermes microscópicos que controlam pragas no solo.<br>
                                         <b>Protozoários (Amebas):</b> Comem bactérias e liberam nitrogênio para as plantas.<br>
-                                        <b>Tardígrados (Ursos d'água):</b> Os seres mais resistentes da Terra, essenciais para a saúde de micro-habitats úmidos.
+                                        <b id="agua">Tardígrados (Ursos d'água):</b> Os seres mais resistentes da Terra, essenciais para a saúde de micro-habitats úmidos.
                                         </p>
 
                                     <h3>Microrganismos da água</h3>
@@ -83,16 +81,16 @@
 
                                 <div class="sobre-conteudo">
                                     <span class="sobre-tag">Atlas Vivo Bio Invisível</span>
-                                    <h2 id="fungica" style="color: black;">Zona Fúngica</h2>
+                                    <h2 id="fungo" style="color: black;">Zona Fúngica</h2>
                                     <h3>Os fungos</h3>
                                     <p><b>Armillaria ostoyae:</b> O maior organismo do mundo (uma rede gigante sob a terra).<br>
                                         <b>Micorrizas:</b> Fungos que se abraçam às raízes das árvores para trocar açúcar por fósforo.<br>
-                                        <b>Trichoderma:</b> Um fungo que protege outras plantas contra fungos "ruins".<br>
+                                        <b id="cugo">Trichoderma:</b> Um fungo que protege outras plantas contra fungos "ruins".<br>
                                         </p>
                                     <h3>Os Cogumelos</h3>
                                     <p><b>Orelha-de-pau (Trametes versicolor):</b> Decompõe troncos caídos, limpando a floresta.<br>
                                         <b>Amanita muscaria:</b> O famoso cogumelo vermelho, vital para a saúde dos pinheiros.<br>
-                                        <b>Lactarius indigo:</b> Um cogumelo azul que ajuda no crescimento de florestas tropicais.<br>
+                                        <b id="bolo">Lactarius indigo:</b> Um cogumelo azul que ajuda no crescimento de florestas tropicais.<br>
                                         </p>
                                     <h3>Os Bolores</h3>
                                     <p><b>Penicillium:</b> Além da medicina, decompõe frutas e recicla açúcares na natureza.<br>
@@ -110,17 +108,17 @@
 
                                 <div class="sobre-conteudo">
                                     <span class="sobre-tag">Atlas Vivo Bio Invisível</span>
-                                    <h2 id="insecto" style="color: black;">Zona de Pequenos e Gigantes: Insetos</h2>
+                                    <h2 id="formi" style="color: black;">Zona de Pequenos e Gigantes: Insetos</h2>
                                     <h3>As formingas</h3>
                                     <p><b>Formiga-cortadeira (Atta):</b> As maiores agricultoras do mundo (cultivam seus próprios fungos).<br>
                                         <b>Formiga-tecelã:</b> Constrói ninhos unindo folhas, criando abrigo para outros seres.<br>
-                                        <b>Formiga-argentina:</b> Vital para dispersar sementes de plantas nativas.<br>
+                                        <b id="abe">Formiga-argentina:</b> Vital para dispersar sementes de plantas nativas.<br>
                                         </p>
 
                                     <h3>As Abelhas</h3>
                                     <p><b>Abelha-comum (Apis mellifera):</b> A polinizadora global de alimentos humanos.<br>
                                         <b>Mamangaba (Bombus):</b> Polinizadoras de "vibração", essenciais para tomates e batatas.<br>
-                                        <b>Abelha-sem-ferrão (Jataí):</b> Crucial para a polinização de árvores nativas em florestas tropicais.<br>
+                                        <b id="besou">Abelha-sem-ferrão (Jataí):</b> Crucial para a polinização de árvores nativas em florestas tropicais.<br>
                                         </p>
 
                                     <h3>Os Besouros</h3>
@@ -139,17 +137,17 @@
 
                                 <div class="sobre-conteudo">
                                     <span class="sobre-tag">Atlas Vivo Bio Invisível</span>
-                                    <h2 id="raiz" style="color: black;">Zona Raizes e plantas ocultas</h2>                           
+                                    <h2 id="musgo" style="color: black;">Zona Raizes e plantas ocultas</h2>                           
                                     <h3>Os Musgos</h3>
                                     <p><b>Sphagnum:</b> O musgo das turfeiras, que armazena quantidades gigantes de carbono.<br>
                                         <b>Musgo-tapete:</b> Cria uma camada de proteção térmica para o solo da floresta.<br>
-                                        <b>Musgo-de-fogo:</b> Uma das primeiras plantas a crescer após um incêndio, recuperando o solo.<br>
+                                        <b id="planta">Musgo-de-fogo:</b> Uma das primeiras plantas a crescer após um incêndio, recuperando o solo.<br>
                                         </p>
 
                                     <h3> As Plantas rasteiras</h3>
                                     <p><b>Trevo-branco:</b> Captura nitrogênio do ar e fertiliza o gramado ao redor.<br>
                                         <b>Beldroega:</b> Planta resistente que protege o solo da erosão pelo vento.<br>
-                                        <b>Hera-terrestre:</b> Cria um tapete denso que impede a evaporação da água do solo.<br>
+                                        <b id="raiz">Hera-terrestre:</b> Cria um tapete denso que impede a evaporação da água do solo.<br>
                                         </p>
 
                                     <h3>Os Raízes</h3>
@@ -201,6 +199,5 @@
                 </div>
             </footer>
         </div>
-    </div>
 </body>
 </html>
