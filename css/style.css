@@ -109,7 +109,7 @@ nav ul li a {
     text-decoration: tomato;
 }
 .especies { color: #14015a; font-weight: bold; }
-
+/* Formatação de parte de contacto*/
 .contato {
     padding: 50px 10%;
     text-align: center;
@@ -124,14 +124,14 @@ nav ul li a {
     flex-direction: column;
     gap: 15px;
 }
-
+/* Formatação di input di form*/
 .form-bio input, .form-bio textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
 }
-
+/* formatação di boton di form mai */
 .btn-submit {
     background-color: #2d5a27;
     color: white;
@@ -225,11 +225,11 @@ nav ul li a {
         border-top: 2px solid #c3ff00;
         padding: 20px 0 0 0;
     }
-    .marquee-content img {
-    width: 200px;
-    height: 100px;}
     .boxe {width: 90%;
         
+    }
+    .imc img {width: 100px;
+              height: 75px;
     }
     .footer-bottom {
         text-align: center;
@@ -246,14 +246,14 @@ nav ul li a {
     } }   
         /* Fim de media quire */
 
-
+/* Div mas garande de rodape*/
 .footer-biodiversidade {
-    background-color: #1a2e1a; /* Verde escuro floresta */
+    background-color: #1a2e1a; 
     color: #f0f0f0;
     padding: 40px 0 20px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/* boots di rodape*/
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -270,7 +270,7 @@ nav ul li a {
 }
 
 .footer-column h3, .footer-column h4 {
-    color: #a4c639; /* Verde broto para destaque */
+    color: #a4c639;
     margin-bottom: 15px;
 }
 
@@ -298,7 +298,7 @@ nav ul li a {
     display: flex;
     margin-top: 10px;
 }
-
+/*Formatação de espacos input*/
 .newsletter-form input {
     padding: 8px;
     border: none;
@@ -306,7 +306,7 @@ nav ul li a {
     outline: none;
     width: 70%;
 }
-
+/* es i formatação de button di formulário de rodape*/
 .newsletter-form button {
     padding: 8px 15px;
     background-color: #a4c639;
@@ -316,7 +316,7 @@ nav ul li a {
     font-weight: bold;
     color: #1a2e1a;
 }
-
+/* Formatação de rodape a ultima parte uma formatação comum*/
 .footer-bottom {
     text-align: center;
     border-top: 1px solid #2c3e50;
@@ -404,8 +404,8 @@ nav ul li a {
   }
   
   .marquee-content img {
-    width: 350px;
-    height: 250px; /* pa difine tamanho das imagens */
+    width: 200px;
+    height: 150px; /* pa difine tamanho das imagens */
   }
   
   /* animação que difine o trajeto de trem*/
